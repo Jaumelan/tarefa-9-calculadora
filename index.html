@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadura</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora</h1>
+    </header>
+    <main>
+        <p id="explanation">Escreva os dois números e depois selecione a operação que deseje realizar</p>
+
+        <form action="">
+            <div id="firstNumber">
+                <label for="primeiroOperador">Primeiro número:</label>
+                <input id="firstOp" type="number" name="primeiroOperador">
+            </div>
+            <div id="secondNumber">
+                <label for="segundoOperador">Segundo número:</label>
+                <input id="secondOp" type="number" name="segundoOperador">
+            </div>
+            <div id="Operations">
+                <button id="sum" type="button" >&#x2b;</button>
+                <button id="substraction" type="button" >&#x2212;</button>
+                <button id="multiplication" type="button">&#215;</button>
+                <button id="division" type="button">&divide;</button>
+            </div>
+            <div id="resultBox">
+                <h2>Resultado</h2>
+                <div id="answer">
+                    <p id="result"></p>
+                </div>
+            </div>
+
+        </form>
+    </main>
+    <script src="calculator.js" defer></script>
+</body>
+</html>

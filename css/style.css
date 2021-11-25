@@ -1,0 +1,120 @@
+body {
+    background-color: rgb(51, 49, 49);
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 200%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#explanation {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 150%;
+    width: 40%;
+    text-align: justify;
+}
+
+form {
+    width: 50%;
+    height:auto;
+    background-color: rgb(50, 122, 205);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#firstNumber {
+    margin: 4% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4%;
+}
+
+#secondNumber {
+    margin-bottom: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4%;
+}
+
+label {
+    font-size: 150%;
+}
+
+input {
+    font-size: 150%;
+    text-align: right;
+}
+
+#Operations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 50%;
+    gap: 4%;
+}
+
+button {
+    background-color: grey;
+    width: 60%;
+    height: 80%;
+    cursor: pointer;
+    font-size: 170%;
+}
+
+button:hover {
+    background-color: rgb(118, 119, 156);
+    cursor: pointer;
+    -webkit-box-shadow: 5px 5px 15px 0px #000000; 
+    box-shadow: 5px 5px 15px 0px #000000;
+}
+
+button:active {
+    background-color: white;
+}
+
+#resultBox {
+    margin: 4% 0;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#answer {
+    background-color: rgb(247, 241, 241);
+    border: 2px solid black;
+    width: 80%;
+    box-sizing: content-box;
+    margin: 3% 0;  
+}
+
+#result {
+    font-size: 150%;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
